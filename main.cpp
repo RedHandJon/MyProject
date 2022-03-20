@@ -8,5 +8,5 @@ int main()
     cin >> y;
     cout << " x + y = " << x + y <<;
     cout << " x - y = " << x - y <<;
-    cout << " x * y = " << x * y << endlendl;
+    cout << " x : y = " << x / y << endlendl;
 }
