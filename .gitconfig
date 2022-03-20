@@ -1,0 +1,12 @@
+[uxer]
+	name = <Евгений>
+[user]
+	email = eug.lomakin2017@yandex.ru
+	name = Евгений
+[core]
+	excludesFile = C:/Users/PC-1/.gitignore
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
