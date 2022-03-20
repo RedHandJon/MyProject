@@ -1,0 +1,9 @@
+#include <sdt>
+int main()
+{
+    int x, y;
+    cout << "введите x: ";
+    cin >> x;
+    cout << "введите y: ";
+    cin >> y;
+}
